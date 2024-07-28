@@ -1,0 +1,19 @@
+{
+  "jobs": [
+    {
+      "id": "1",
+      "title": "Frontend Developer",
+      "details": "We're looking for a frontend developer to join our team."
+    },
+    {
+      "id": "2",
+      "title": "Backend Developer",
+      "details": "We're looking for a backend developer to join our team."
+    },
+    {
+      "id": "3",
+      "title": "Full-stack Developer",
+      "details": "We're looking for a full-stack developer to join our team."
+    }
+  ]
+}
