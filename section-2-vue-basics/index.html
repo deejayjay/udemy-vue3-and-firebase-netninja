@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learning Vue</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+    <style>
+      body {
+        background-color: #eee;
+        max-width: 60rem;
+        margin: 1.25rem auto;
+      }
+
+      ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      li {
+        list-style-type: none;
+        background-color: #fff;
+        margin: 1.25rem auto;
+        padding: 0.6125rem 1.25rem;
+        border-radius: 0.3125rem;
+      }
+
+      li:hover {
+        cursor: pointer;
+        user-select: none;
+      }
+
+      .fav {
+        background-color: lightcoral;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <button v-on:click="showBooks = !showBooks">
+        {{ !showBooks ? "Show" : "Hide" }} Details
+      </button>
+      <div>
+        <a :href="url">Search for more books</a>
+      </div>
+      <section v-if="showBooks">
+        <ul>
+          <li
+            v-for="book in books"
+            :class="{fav : book.isFav}"
+            @click="toggleIsFav(book)"
+          >
+            {{ book.title }} - {{ book.author }}
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Favorite Books</h2>
+        <ul>
+          <li v-for="book in filteredBooks">{{ book.title }}</li>
+        </ul>
+      </section>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
