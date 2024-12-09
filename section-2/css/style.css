@@ -1,0 +1,64 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.card {
+  margin: 1.5rem auto;
+  width: min(100%, 30rem);
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+button {
+  background-color: #333;
+  color: #fafafa;
+  border: 1px solid #333;
+  padding: 0.5rem 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.125rem;
+  transition: background-color 250ms border-color 250ms;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #555;
+  border: 1px solid #555;
+}
+
+.box {
+  padding: 6rem 0;
+  width: 25rem;
+  text-align: center;
+  background-color: #ddd;
+  margin: 1.25rem;
+  display: inline-block;
+}
+
+.book {
+  padding: 1.5rem;
+}
+
+.book:not(:last-of-type) {
+  margin-bottom: 1rem;
+}
+
+.favorite {
+  background-color: #5da0a0;
+}
