@@ -1,0 +1,19 @@
+{
+  "jobs": [
+    {
+      "id": 1,
+      "title": "Software Engineer",
+      "description": "We're looking for a skilled software engineer to design, develop, and maintain innovative software solutions in a collaborative team environment. The ideal candidate will have experience with coding, debugging, and optimizing applications while ensuring high performance and scalability."
+    },
+    {
+      "id": 2,
+      "title": "Web Developer",
+      "description": "We're seeking a talented web developer to design and build responsive websites and applications. The ideal candidate will have experience with front-end and back-end technologies, as well as a strong understanding of web development best practices."
+    },
+    {
+      "id": 3,
+      "title": "Data Scientist",
+      "description": "We're looking for a data scientist to analyze complex data sets and generate actionable insights. The ideal candidate will have experience with statistical analysis, machine learning, and data visualization, as well as strong problem-solving skills."
+    }
+  ]
+}
