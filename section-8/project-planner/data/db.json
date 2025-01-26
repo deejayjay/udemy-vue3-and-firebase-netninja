@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "title": "Grocery Shopping",
+      "details": "Pick up groceries for the week including fresh produce, dairy, and snacks.",
+      "complete": false
+    },
+    {
+      "id": "2",
+      "title": "Send and pickup mail",
+      "details": "Drop off packages at the post office for mailing and pick up a few items from the mailbox.",
+      "complete": false
+    },
+    {
+      "id": "3",
+      "title": "Laundry Pickup",
+      "details": "Collect dry cleaning and laundry from the local laundromat.",
+      "complete": false
+    }
+  ]
+}
