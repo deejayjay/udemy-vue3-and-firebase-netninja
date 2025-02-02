@@ -1,0 +1,64 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Introduction to Blazor",
+      "body": "Blazor is a framework for building interactive web applications using C# and .NET. It enables developers to create single-page applications without relying on JavaScript.",
+      "tags": [
+        "Blazor",
+        ".NET",
+        "Web Development"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Optimizing SQL Queries",
+      "body": "Optimizing SQL queries is essential for improving database performance. Techniques such as indexing, query rewriting, and proper joins can significantly enhance query execution speed.",
+      "tags": [
+        "SQL",
+        "Performance",
+        "Database"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Understanding Windows Authentication in .NET",
+      "body": "Windows Authentication allows applications to authenticate users based on their Windows credentials. This is commonly used in intranet applications for seamless authentication.",
+      "tags": [
+        ".NET",
+        "Security",
+        "Windows Authentication"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "C# Password Hashing with Salt",
+      "body": "Using salt in password hashing enhances security by preventing precomputed attacks like rainbow table attacks. A secure hashing algorithm like PBKDF2, bcrypt, or Argon2 is recommended.",
+      "tags": [
+        "C#",
+        "Security",
+        "Password Hashing"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Setting Up CI/CD Pipelines in .NET",
+      "body": "A CI/CD pipeline automates the process of building, testing, and deploying .NET applications. Tools like GitHub Actions, Azure DevOps, and Jenkins can be used to streamline deployments.",
+      "tags": [
+        ".NET",
+        "CI/CD",
+        "DevOps"
+      ]
+    },
+    {
+      "title": "Understanding Model Classes in C#",
+      "body": "In C#, a model class serves as a blueprint for representing data in an application. These classes are used to structure data, define properties, and facilitate interactions between different layers of the application, such as databases, APIs, and UI components.",
+      "tags": [
+        "C#",
+        ".NET",
+        "EF"
+      ],
+      "id": 6
+    }
+  ]
+}
